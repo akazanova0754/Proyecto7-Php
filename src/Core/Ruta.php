@@ -8,7 +8,7 @@
         private $niveles_navegacion=3;//Vista/metodo/parametro(3) || Vista/metodo(2) || Vista/parametro(1)
         private $url_relativa;
         private $url_absoluta;//La ruta real que esta en el navegador
-        private $domain_web_development="/Curriculum/Proyecto7-Php"; #El dominio de la web de desarrollo( En este caso el subdirectorio)
+        private $domain_web_development="web-production-f760.up.railway.app"; #El dominio de la web de desarrollo( En este caso el subdirectorio)
 
         function __construct($ruta){
             
