@@ -1,0 +1,37 @@
+*{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+body{
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+.contenedor{
+    flex: 1;
+}
+.mensaje{
+    box-sizing: border-box;
+    padding: 20px 10px;
+    text-align: center;
+    position: relative;
+    width: 600px;
+    height: 200px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+.mensaje span{
+    align-self: flex-end;
+    justify-self: flex-end;
+    margin-top: auto;
+    font-size: 15px;
+}

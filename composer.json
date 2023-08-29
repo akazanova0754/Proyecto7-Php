@@ -1,0 +1,23 @@
+{
+    "name": "marvin/ihc",
+    "description": "Proyecto de IHC",
+    "authors": [
+        {
+            "name": "marvin0754",
+            "email": "acasanova@unsa.edu.pe"
+        }
+    ],
+    "require": {
+        "php": ">=7.2.0"
+    },
+    "config": {
+        "vendor-dir": "Composer/"
+    },
+    "autoload": {
+        "psr-4": {
+            "MyApp\\": "src/"
+        }
+    }
+    
+    
+}
